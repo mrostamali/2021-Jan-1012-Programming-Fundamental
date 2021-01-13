@@ -11,6 +11,9 @@ namespace FirstSample
             Console.WriteLine("Hello World!");
             Console.WriteLine("This course section is:\tOA03 ");
             Console.WriteLine("Your instructor name is:\tDon Welch");
+
+            string myName = "Maryam Rostamali";
+            Console.WriteLine($"This name is printed from a variable:\t{myName}");
         }
     }
 }
