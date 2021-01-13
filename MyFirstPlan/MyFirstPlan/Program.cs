@@ -6,12 +6,12 @@ namespace MyFirstPlan
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("The first step is buying all the ingredient from the store");
-            Console.WriteLine("The second step is slice the chicken and tomato");
-            Console.WriteLine("The third step is put the chicken in the oven for 30 min in 370 F");
-            Console.WriteLine("The fourth step is Spread the sauce on the bread");
-            Console.WriteLine("The fifth step is put the chicken and tomato on the bread");
+            Console.WriteLine("How to make a chicken sandwich:");
+            Console.WriteLine("\t1)\tbuying all the ingredient from the store");
+            Console.WriteLine("\t2)\tslice the chicken and tomato");
+            Console.WriteLine("\t3)\tput the chicken in the oven for 30 min in 370 F");
+            Console.WriteLine("\t4)\tSpread the sauce on the bread");
+            Console.WriteLine("\t5)\tput the chicken and tomato on the bread");
         }
     }
 }
