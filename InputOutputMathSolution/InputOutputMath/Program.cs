@@ -57,11 +57,11 @@ namespace InputOutputMath
             double theCelsiusTempereture = double.Parse(inputTemp);
 
             //calculation using the conversion expression
-            double theFarenheitTemperature = (theCelsiusTempereture * (9.0/5.0)) + 32;
+            double theFahrenheitTemperature = (theCelsiusTempereture * (9.0/5.0)) + 32;
 
             //output
-            //  .WriteLine() which automaticaly goes to the nest line.
-            Console.WriteLine($"The Celsius temperature of {theCelsiusTempereture} is " +  $"{theFarenheitTemperature} in Fahrenhiet.");
+            //  .WriteLine() which automaticaly goes to the next line.
+            Console.WriteLine($"The Celsius temperature of {theCelsiusTempereture} is {theFahrenheitTemperature} in Fahrenhiet.");
         }
     }
 }
