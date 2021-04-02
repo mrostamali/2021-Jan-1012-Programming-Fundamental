@@ -14,7 +14,7 @@ namespace IntroToObjects
             //What about developer defined datatypes
             //The class name is used as the datatype 
             //
-            //declaring a variable of the developer datatype class sets aside a physial are 
+            //declaring a variable of the developer datatype class sets aside a physial area 
             //   in memory to hold the address location of the actual instance of the class
             //Default of these variables is null
             Wallet myWallet = null;

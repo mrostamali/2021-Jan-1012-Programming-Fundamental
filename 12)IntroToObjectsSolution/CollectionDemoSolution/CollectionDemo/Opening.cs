@@ -49,7 +49,7 @@ namespace CollectionDemo
         }
 
         //behaviour (aks method)
-        public double OpenningArea()
+        public double OpeningArea()
         {
             //Note: no parameters were set up
             //WHY?

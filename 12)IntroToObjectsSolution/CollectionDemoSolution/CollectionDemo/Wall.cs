@@ -48,7 +48,7 @@ namespace CollectionDemo
         {
             //Note: no parameters were set up
             //WHY?
-            //  The method cabn access the sata within the instance
+            //  The method cabin access the data within the instance
             //  by using either the properties or the private data member
             //GOOD RULE OF THUMB: properties over data members
             return Width * Height;
