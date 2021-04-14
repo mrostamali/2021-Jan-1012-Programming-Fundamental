@@ -36,7 +36,13 @@ namespace ArraySamples
             //What is needed to know: Size of the array
             //How does one refrence a particular element in the array: by index (starts at 0)
             //How does one change index: use iteration (looping) logic
-
+            //
+            //Since an array is a class, you could use properties within the class to determine 
+            //   the physical size of the class
+            //   this property is called .Lenght
+            //
+            //   for (int index = 0; index < die2Face.Lenght; index++)
+            //
             ////for(int index = 0; index < 6; index++)
             ////{
             ////    Console.WriteLine($"Default value {die2Face[index]} Assigned value {die3Face[index]} Face Name {dieFaceName[index]}");
@@ -74,13 +80,13 @@ namespace ArraySamples
 
 
             //create an array to hold ten names
-            string[] Names = new string[5];
+            string[] Names = new string[10];
             //create a counter to indicate how many names are in the array 
             //This variable does a "natural" count (1, 2, 3, ..)
             int logicalSize = 0;
             bool stop = false;
             //at the start of the loop, the array is empty (no names)
-            while (logicalSize < 5 && !stop)
+            while (logicalSize < 10 && !stop)
             {
                 logicalSize = GetName(Names, logicalSize);
                 Console.Write("\nEnter another name (y/n)\t");
